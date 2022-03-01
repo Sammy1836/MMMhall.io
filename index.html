@@ -8,6 +8,7 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/poppins" type="text/css"/>
     <title>MMM Hall of Residence</title>
+    <link rel="icon" type="image/jpg" href="./pictures/mmm-cover.jpg">
     <style>
         * {
             box-sizing: border-box;
@@ -63,6 +64,13 @@
             background-color: rgba(0, 0, 0, 0.3);
             color: rgb(226, 184, 64);
         }
+
+        @media(max-width:650px){
+            .nav ul li a{
+                font-size: 12px;
+                padding: 5px;
+            }
+        }
         
     </style>
 </head>
@@ -73,8 +81,8 @@
                     <ul style="list-style-type: none;">
                         <li><a href="#home-page">Home</a></li>
                         <li><a href="#about-hall">About</a></li>
-                        <li><a href="mess.html" target="_blank">Mess</a></li>
-                        <li><a href="Complaints.html" target="_blank">Complaints</a></li>
+                        <li><a href="mess.html">Mess</a></li>
+                        <li><a href="Complaints.html">Complaints</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                     </ul>
         </div>
@@ -115,6 +123,16 @@
         @media(max-width:800px){
             .heading-text h1{
                 font-size: 28px;
+            }
+        }
+
+        @media(max-width:600px){
+            .heading-text h1{
+                font-size: 20px;
+                
+            }
+            .heading-text{
+                top: 30vh;
             }
         }
             
@@ -284,6 +302,11 @@
                 width: 70%;
             }
         }
+        @media(max-width:1150px){
+            .warden-body{
+                width: 90%;
+            }
+        }
 
         .hall-council-outer {
             text-align: center;
@@ -308,6 +331,10 @@
             margin: 10px;
             background-color: rgba(0, 0, 0, 0.3);
             border-radius: 8px;
+        }
+
+        .hall-council-list a{
+            color: black;
         }
 
         .hall-council-list:hover {
@@ -436,14 +463,16 @@
                 <div class="hall-council-pic">
                     <img src="./pictures/abhijeet kumar.jpeg">
                 </div>
-                Abhijeet Kumar <br>
+                <a href="https://www.facebook.com/abhijit.kumar.79677471" target="_blank">
+                    Abhijeet Kumar </a>
                 <b><i>Hall President</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/alok kumar.jpeg">
                 </div>
-                Alok Kumar <br>
+                <a href="https://www.facebook.com/profile.php?id=100027653955729" target="_blank">
+                    Alok Kumar </a>
                 <b><i>Second Senate Member</b></i>
             </div>
         </div>
@@ -454,56 +483,64 @@
                 <div class="hall-council-pic">
                     <img src="./pictures/pranav.jpeg">
                 </div>
-                Pranav Gore <br>
+                <a href="https://www.facebook.com/pranav.gore.90" target="_blank">
+                    Pranav Gore </a>
                 <b><i>Sports & Games</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/piyush.jpeg">
                 </div>
-                Piyush Dhamane <br>
+                <a href="https://www.facebook.com/profile.php?id=100006448421839" target="_blank">
+                    Piyush Dhamane</a>
                 <b><i>Technology</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/thaneshwar.jpg">
                 </div>
-                Thaneshwar Chakrawarti <br>
+                <a href="https://www.facebook.com/profile.php?id=100077057003680" target="_blank">
+                    Thaneshwar Chakrawarti </a>
                 <b><i>Students' Welfare</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/vinod.jpeg">
                 </div>
-                Vinod Sharma <br>
+                <a href="https://www.facebook.com/vinod.bagra.5836" target="_blank">
+                    Vinod Sharma </a>
                 <b><i>Social & Cultural</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/satyam.jpeg">
                 </div>
-                Satyam Jha <br>
+                <a href="https://www.facebook.com/ranny.cunninghamp" target="_blank">
+                    Satyam Jha </a>
                 <b><i>Alumni Affairs</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/naman.jpeg">
                 </div>
-                Naman Sultania <br>
+                <a href="https://www.facebook.com/naman.sultania" target="_blank">
+                    Naman Sultania </a>
                 <b><i>Maintainance</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/anuj.jpeg">
                 </div>
-                Anuj Swarnkar <br>
+                <a href="https://www.facebook.com/anuj.swarnkar.5811" target="_blank">
+                    Anuj Swarnkar </a>
                 <b><i>Mess</i></b>
             </div>
             <div class="hall-council-list">
                 <div class="hall-council-pic">
                     <img src="./pictures/apoorv.jpeg">
                 </div>
-                Apoorv Bansal <br>
+                <a href="https://www.facebook.com/apoorv.bansal.9803" target="_blank">
+                    Apoorv Bansal </a>
                 <b><i>Joint Secretary (Mess)</i></b>
             </div>
 
@@ -536,7 +573,7 @@
         <a href="https://www.linkedin.com/in/manav-sharma-78a955214/" target="_blank">Manav</a> |
         <a href="https://www.facebook.com/profile.php?id=100008335309472" target="_blank">Abhiraj</a> |
         <a href="https://www.linkedin.com/in/satyam-kumar-4b3315218/" target="_blank">Satyam</a> |
-        <a href="" target="_blank">Harsh</a>
+        <a href="https://www.linkedin.com/in/harsh-jha-33053a209" target="_blank">Harsh</a>
     </footer>
 
 
