@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/poppins" type="text/css"/>
+    <title>MMM Hall of Residence</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(226, 180, 51);
+            font-family: 'PoppinsRegular';
+            font-weight: 400;
+        }
+
+        
+
+        .nav {
+            top: 0;
+            position: -webkit-sticky;
+            position: sticky;
+            background-color: rgb(39, 40, 41);
+            margin: 0 auto;
+            display: flex;
+        }
+
+        .nav ul {}
+
+        .nav ul li {
+            float: left;
+            /* position: relative; */
+
+        }
+
+        .nav a {
+            display: block;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            /* text-align: center; */
+            text-decoration: none;
+
+        }
+
+        .nav a:active{
+            color: rgb(226, 184, 64);
+        }
+
+        .nav li:hover a {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: rgb(226, 184, 64);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="home-page"></div>
+        <div class="nav">
+                    <ul style="list-style-type: none;">
+                        <li><a href="#home-page">Home</a></li>
+                        <li><a href="#about-hall">About</a></li>
+                        <li><a href="mess.html" target="_blank">Mess</a></li>
+                        <li><a href="Complaints.html" target="_blank">Complaints</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+        </div>
+
+    <style>
+        .mySlides {
+            display: none;
+        }
+
+        .mySlides img {
+            max-height: 70vh;
+        }
+
+        .slideshow-container {
+
+            position: relative;
+            margin: auto;
+        }
+
+        .heading-text{
+            width: 60%;
+            height: auto;
+            position: absolute;
+            top: 40vh;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: rgb(226, 180, 51);
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 10px 20px;
+            text-align: center;
+            text-shadow: 1px 1px 0px white;
+
+        }
+        .heading-text h1{
+            font-size: 35px;
+        }
+        @media(max-width:800px){
+            .heading-text h1{
+                font-size: 28px;
+            }
+        }
+            
+        
+    </style>
+
+    <div class="content-body">
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+
+                <img src="./pictures/MMM-2.1.jpeg" style="width:100%;">
+
+            </div>
+
+            <div class="mySlides">
+
+                <img src="./pictures/MMM-1.jpeg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides">
+
+                <img src="./pictures/MMM-3.jpg" style="width:100%">
+
+            </div>
+
+        </div>
+
+        <div class="heading-text">
+            <h1>Pt. Madan Mohan Malaviya <br> Hall of Residence</h1>
+        </div>
+
+    </div>
+
+    <style>
+        .division {
+            display: flex;
+            justify-content: center;
+        }
+
+        .notice-board {
+            width: 70%;
+            height: auto;
+            /* margin-bottom: 20px; */
+            /* border: 2px solid black; */
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+
+        }
+
+        .event {
+            display: inline-block;
+            font-size: 110%;
+            font-weight: 600;
+        }
+
+        .notice-board ul {
+            padding: 0;
+        }
+
+        .notice-board li {
+            padding: 10px;
+            font-size: 1.2em;
+        }
+
+        @media(max-width:800px) {
+            .notice-board {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .notice-board li {
+                font-size: 2.3vw;
+            }
+        }
+    </style>
+    <div class="division">
+        <div class="notice-board">
+            <h2>Notice Board</h2>
+            <hr style="width: 80%;">
+            <ul style="list-style-type: none;">
+                <li>
+                    <div class="event"><i>Selections for Volleyball</i></div> will be held on <i>27<sup>th</sup> Feb
+                    </i> from <u>4PM</u> <b>@TSG</b>.
+                </li>
+                <li>
+                    <div class="event"><i>Graffiti Competition</i></div> will start from <u>3PM</u> on
+                    <i>27<sup>th</sup> Feb </i> <b>@SDS Common Room</b>.
+                </li>
+            </ul>
+
+            <div id="about-hall"></div>
+            ****************
+
+        </div>
+    </div>
+
+    <style>
+        .about {
+            text-align: center;
+            margin: 50px;
+        }
+
+        .about-text {
+            display: flex;
+            justify-content: center;
+        }
+
+        .about p {
+            font-size: large;
+            text-align: left;
+            width: 80%;
+        }
+
+        .warden-outer-tab {
+            text-align: center;
+        }
+
+        .warden-tab {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            margin: 0px !important;
+        }
+
+        .warden-body {
+            width: 45%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+            border-left: 1px dashed white;
+            border-right: 1px dashed white;
+            border-radius: 8px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .warden-pic {
+            width: 200px;
+
+        }
+
+        .warden-pic img {
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        .warden-info {
+            padding: 10px;
+            width: 60%;
+        }
+
+        @media(max-width:1150px) {
+            .warden-tab {
+                flex-direction: column;
+            }
+
+            .warden-body {
+                width: 70%;
+            }
+        }
+
+        .hall-council-outer {
+            text-align: center;
+            margin: 50px 20px;
+        }
+
+        .hall-council {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hall-council-list {
+            /* border: 2px solid white; */
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            margin: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+        }
+
+        .hall-council-list:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .hall-council-list i {
+            color: rgb(226, 184, 64);
+        }
+
+        .hall-council-gsec {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .hall-council-pic {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 15px;
+
+        }
+
+        .hall-council-pic img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    </style>
+
+    
+
+    <div class="about">
+        <h1>About MMM Hall of Residence</h1>
+        <hr style="border: 1px solid white; width: 80%;">
+        <br>
+        <div class="about-text">
+            <p>
+                Pt. Madan Mohan Malviya Hall of Residence was founded on the 27<sup>th</sup> February 2005 and completed
+                in
+                record time for occupation by the 2005-06 batch on July 22<sup>nd</sup>.
+                <br> The bust of Pt. Madan Mohan Malaviya was unveiled by Justice Girdhar Malaviya on 30<sup>th</sup>
+                March
+                2007.
+
+                <br> <br> It consist of four blocks : <b>DSK</b> Block, <b>RR</b> Block, <b>SDS</b> Block and <b>HK</b>
+                Block.
+            </p>
+        </div>
+
+    </div>
+    <div class="warden-outer-tab">
+        <h2><u>Wardens</u></h2>
+        <div class="warden-tab">
+            <div class="warden-body">
+                <div class="warden-pic">
+                    <img src="./pictures/warden.jpeg">
+                </div>
+
+                <div class="warden-info">
+                    Prof. Sanjib Kumar Patra
+                    <br><small>Chemistry</small><br>
+                    <br>
+                    <b> WARDEN</b>
+                    <br><br>
+                    Phone: <a href="tel:+91 3222 2 81240">+91 3222 2 81240</a> (office)
+                </div>
+            </div>
+
+            <div class="warden-body">
+                <div class="warden-pic">
+                    <img src="./pictures/trilok singh.jpeg">
+                </div>
+
+                <div class="warden-info">
+                    Prof. Trilok Singh
+                    <br><small>Energy Science and Technology</small><br>
+                    <br>
+                    <b>ASSISTANT WARDEN</b>
+                    <br><br>
+                    Phone: <a href="tel:+91 3222 2 81240">+91 3222 2 81240</a> (office)
+                </div>
+            </div>
+
+            <div class="warden-body">
+                <div class="warden-pic">
+                    <img src="./pictures/abhay singh.jpeg">
+                </div>
+
+                <div class="warden-info">
+                    Prof. Abhay Singh Gour
+                    <br><small>Cryogenic Engineering</small><br>
+                    <br>
+                    <b>ASSISTANT WARDEN</b>
+                    <br><br>
+                    Phone: <a href="tel:+91 3222 2 81240">+91 3222 2 81240</a> (office)
+                </div>
+            </div>
+
+            <div class="warden-body">
+                <div class="warden-pic">
+                    <img src="./pictures/Kaushal Bhagat.jpeg">
+                </div>
+
+                <div class="warden-info">
+                    Prof. Kaushal Kumar Bhagat
+                    <br><small>Center for Educational Technology</small><br>
+                    <br>
+                    <b>ASSISTANT WARDEN</b>
+                    <br><br>
+                    Phone: <a href="tel:+91 3222 2 81240">+91 3222 2 81240</a> (office)
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <style>
+
+    </style>
+
+    <div class="hall-council-outer">
+        <h2>Hall Council </h2>
+        <div class="hall-council">
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/abhijeet kumar.jpeg">
+                </div>
+                Abhijeet Kumar <br>
+                <b><i>Hall President</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/alok kumar.jpeg">
+                </div>
+                Alok Kumar <br>
+                <b><i>Second Senate Member</b></i>
+            </div>
+        </div>
+
+        <h3><u>General Secretaries</u></h3>
+        <div class="hall-council-gsec">
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/pranav.jpeg">
+                </div>
+                Pranav Gore <br>
+                <b><i>Sports & Games</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/piyush.jpeg">
+                </div>
+                Piyush Dhamane <br>
+                <b><i>Technology</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/thaneshwar.jpg">
+                </div>
+                Thaneshwar Chakrawarti <br>
+                <b><i>Students' Welfare</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/vinod.jpeg">
+                </div>
+                Vinod Sharma <br>
+                <b><i>Social & Cultural</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/satyam.jpeg">
+                </div>
+                Satyam Jha <br>
+                <b><i>Alumni Affairs</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/naman.jpeg">
+                </div>
+                Naman Sultania <br>
+                <b><i>Maintainance</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/anuj.jpeg">
+                </div>
+                Anuj Swarnkar <br>
+                <b><i>Mess</i></b>
+            </div>
+            <div class="hall-council-list">
+                <div class="hall-council-pic">
+                    <img src="./pictures/apoorv.jpeg">
+                </div>
+                Apoorv Bansal <br>
+                <b><i>Joint Secretary (Mess)</i></b>
+            </div>
+
+        </div>
+
+    </div>
+
+    <style>
+        footer {
+            text-align: center;
+            margin: 40px;
+            border-top: 2px solid black;
+            padding-top: 40px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        footer a:hover {
+            color: rgba(0, 0, 0, 0.4);
+
+        }
+    </style>
+
+    <footer>
+        &copy; SMASH
+        <br><br>
+        <a href="https://www.linkedin.com/in/sameer-saurabh-782295186/" target="_blank">Sameer</a> |
+        <a href="https://www.linkedin.com/in/manav-sharma-78a955214/" target="_blank">Manav</a> |
+        <a href="https://www.facebook.com/profile.php?id=100008335309472" target="_blank">Abhiraj</a> |
+        <a href="https://www.linkedin.com/in/satyam-kumar-4b3315218/" target="_blank">Satyam</a> |
+        <a href="" target="_blank">Harsh</a>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

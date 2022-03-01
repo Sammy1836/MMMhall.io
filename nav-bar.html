@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            top: 0;
+            position: -webkit-sticky;
+            position: sticky;
+            background-color: rgb(39, 40, 41);
+            margin: 0 auto;
+            display: flex;
+        }
+
+        .nav ul {}
+
+        .nav ul li {
+            float: left;
+            /* position: relative; */
+
+        }
+
+        .nav a {
+            display: block;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            /* text-align: center; */
+            text-decoration: none;
+
+        }
+        a:active{
+            color: rgb(226, 184, 64);
+        }
+
+        .nav li:hover a {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: rgb(226, 184, 64);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul style="list-style-type: none;">
+            <li><a href="#home-page" target="_top">Home</a></li>
+            <li><a href="#about-hall" target="_top">About</a></li>
+            <li><a href="mess.html" target="_top">Mess</a></li>
+            <li><a href="Complaints.html" target="_top">Complaints</a></li>
+            <li><a href="contact-us.html" target="_top">Contact Us</a></li>
+        </ul>
+</div>
+</body>
+</html>

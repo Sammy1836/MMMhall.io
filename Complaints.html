@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/poppins" type="text/css"/>
+    <title>Feedback Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(32, 33, 34);
+            color: rgb(226,184,64);
+            font-family: 'UniqueRegular';
+
+        }
+        .form-heading{
+            text-align: center;
+            font-size: 45px;
+            margin: 20px;
+        }
+        .form-outer-body{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+        .form-body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 60%;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+        }
+
+        form {
+            width: 100%;
+            margin: 0 20px 15px 20px;
+        }
+
+        .form-element {
+            padding: 10px;
+            margin: 10px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input[type=submit] {
+            font-size: 17px;
+            font-weight: 600;
+            padding: 8px;
+            background: rgb(226,184,64);
+            border: 1px solid black;
+            cursor: pointer;
+            border-radius: 5px;
+            color: rgb(32, 33, 34);
+        }
+
+        @media(max-width:800px) {
+            .form-body{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            top: 0;
+            position: -webkit-sticky;
+            position: sticky;
+            background-color: rgb(39, 40, 41);
+            margin: 0 auto;
+            display: flex;
+            font-family: 'PoppinsRegular' !important;
+        }
+
+        .nav ul {}
+
+        .nav ul li {
+            float: left;
+            /* position: relative; */
+
+        }
+
+        .nav a {
+            display: block;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            /* text-align: center; */
+            text-decoration: none;
+
+        }
+        a:active{
+            color: rgb(226, 184, 64);
+        }
+
+        .nav li:hover a {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: rgb(226, 184, 64);
+        }
+        
+    </style>
+
+    <div class="nav">
+        <ul style="list-style-type: none;">
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#about-hall">About</a></li> -->
+            <li><a href="mess.html">Mess</a></li>
+            <li><a href="Complaints.html">Complaints</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    <div class="form-outer-body">
+        <div class="form-body">
+            <div class="form-heading"><b>Feedback Form<hr></b></div>
+            <form>
+                <div class="form-name form-element">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" style="width: 60%; margin-top: 8px; padding: 8px 5px; background-color: rgb(32, 33, 34); color: white;" placeholder="John Snow"><br>
+                </div>
+                <div class="form-roll form-element">
+                    <label for="roll">Roll No.:</label><br>
+                    <input type="text" id="roll" name="roll" style="width: 60%; margin-top: 8px; padding: 8px 5px; background-color: rgb(32, 33, 34); color: white;" placeholder="20XX10001"><br>
+                </div>
+                <div class="form-room form-element">
+                    <label for="room">Room No.:</label><br>
+                    <input type="text" id="room" name="room" style="width: 60%; margin-top: 8px; padding: 8px 5px; background-color: rgb(32, 33, 34); color: white;" placeholder="SDS 502"><br>
+                </div>
+                <div class="form-complaints form-element">
+                    <label for="feedback">Complaints/Queries:</label><br>
+                    <textarea name="Feedback" rows="6" style="width: 85%;  margin-top: 8px; padding: 8px 5px; background-color: rgb(32, 33, 34); color: white;" placeholder="Drop your Message:"></textarea>
+                </div>
+                <div class="form-element">
+                    <input type="submit" value="Send" style="">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
